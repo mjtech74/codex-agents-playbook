@@ -6,6 +6,8 @@ This repository is for teams that want their coding agent to work with project m
 
 It is not a giant prompt dump. It is a set of small, copyable operating rules for agents that need to survive real codebases: stale dev servers, drifting docs, oversized files, browser verification, and "it should work" claims with no evidence.
 
+Unofficial project. Not affiliated with OpenAI.
+
 ## The Pitch
 
 Most agent instructions optimize for style. This playbook optimizes for operational reliability.
@@ -66,7 +68,7 @@ This playbook turns those lessons into reusable templates.
 - `templates/nextjs-saas.md`: rules for Next.js/SaaS projects.
 - `templates/design-heavy-app.md`: frontend and visual verification rules.
 - `templates/production-ops.md`: worklogs, evidence gates, and operational discipline.
-- `examples/accommodation-saas-redacted.md`: a redacted example based on a large hospitality SaaS-style project.
+- `examples/vertical-saas-redacted.md`: a redacted example for a large vertical SaaS-style project.
 - `docs/*`: focused guides for worklogs, evidence gates, large-file control, and dev-server recovery.
 
 ## Core Ideas

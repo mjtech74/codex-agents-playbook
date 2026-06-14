@@ -1,6 +1,6 @@
-# Redacted Example - Accommodation SaaS
+# Redacted Example - Vertical SaaS
 
-This example shows how a large accommodation SaaS project might customize the playbook without exposing internal product names, domains, billing partners, or incident history.
+This example shows how a large vertical SaaS project might customize the playbook without exposing internal product names, customer domains, payment partners, or incident history.
 
 ## Active Docs
 
@@ -14,10 +14,10 @@ This example shows how a large accommodation SaaS project might customize the pl
 ## Project-Specific Rules
 
 - Always resolve active docs through `docs/workboard.md`; do not assume fixed dated filenames.
-- Keep a daily KST worklog under `docs/YYYYMMDD_walk.md`.
-- Homepage, booking, PMS, billing, and domain features must keep docs and code synchronized in the same work cycle.
+- Keep a daily local-time worklog under `docs/YYYYMMDD_walk.md`.
+- Public site, operations workspace, billing, and custom-domain features must keep docs and code synchronized in the same work cycle.
 - Page and route files should stay orchestration-focused.
-- Public accommodation sites must show the customer's brand, not the platform brand, on metadata and public surfaces.
+- Customer-facing public surfaces must show the customer's brand, not the platform brand, on metadata and public pages.
 - Large seed assets must not be scanned from serverless functions at runtime.
 - Browser checks must confirm local server health before navigation.
 
