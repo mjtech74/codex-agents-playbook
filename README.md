@@ -63,13 +63,24 @@ This playbook turns those lessons into reusable templates.
 
 ## What You Get
 
-- `AGENTS.md`: a strong default for production projects.
+- `AGENTS.md`: the full production-ready template.
 - `templates/minimal.md`: a small version for simple repositories.
 - `templates/nextjs-saas.md`: rules for Next.js/SaaS projects.
 - `templates/design-heavy-app.md`: frontend and visual verification rules.
 - `templates/production-ops.md`: worklogs, evidence gates, and operational discipline.
 - `examples/vertical-saas-redacted.md`: a redacted example for a large vertical SaaS-style project.
 - `docs/*`: focused guides for worklogs, evidence gates, large-file control, and dev-server recovery.
+
+## Repository Layout
+
+```text
+AGENTS.md                         # full template for larger projects
+templates/                        # smaller templates by project type
+examples/                         # redacted customization examples
+docs/                             # focused notes behind the rules
+```
+
+The root `AGENTS.md` is intentionally copyable. The `templates/` directory exists so smaller projects do not have to start with the full rule set.
 
 ## Core Ideas
 
