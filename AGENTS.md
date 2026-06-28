@@ -4,6 +4,21 @@
 
 These rules are the default policy for all agent work in this repository.
 
+Repository purpose:
+
+```text
+Reusable AGENTS.md templates and operating rules for Codex coding agents.
+```
+
+Keep public-facing content clear enough that developers can find this repository through searches for:
+
+- Codex AGENTS.md
+- Codex agent playbook
+- AI coding agent workflow
+- evidence gates
+- worklogs
+- Next.js SaaS agent rules
+
 ## 1. Inspect First
 
 - Before implementing, inspect the current project structure, active docs, existing patterns, and relevant tests.
@@ -52,6 +67,11 @@ These rules are the default policy for all agent work in this repository.
   - why it changed
   - what remains
 - If code and docs disagree, either fix both or clearly log the remaining mismatch.
+- For README changes, keep the first screen searchable and concrete:
+  - what this repo is
+  - who it is for
+  - which template to copy first
+  - which keywords describe the repo
 
 ## 7. Verification
 

@@ -1,12 +1,37 @@
 # Codex AGENTS Playbook
 
-A practical `AGENTS.md` playbook for running Codex on real production projects.
+A practical `AGENTS.md` playbook for OpenAI Codex, coding agents, and AI-assisted software development workflows.
 
-This repository is for teams that want their coding agent to work with project memory, worklogs, evidence gates, frontend verification, and safer long-running workflows instead of one-off prompt vibes.
+This repository provides copyable `AGENTS.md` templates for teams that want their Codex agent to work with project memory, worklogs, evidence gates, frontend verification, SaaS safety rules, and safer long-running workflows instead of one-off prompt vibes.
 
-It is not a giant prompt dump. It is a set of small, copyable operating rules for agents that need to survive real codebases: stale dev servers, drifting docs, oversized files, browser verification, and "it should work" claims with no evidence.
+It is not a giant prompt dump. It is a set of small, practical operating rules for AI coding agents that need to survive real codebases: stale dev servers, drifting docs, oversized files, browser verification, and "it should work" claims with no evidence.
 
 Unofficial project. Not affiliated with OpenAI.
+
+## Suggested GitHub Metadata
+
+Recommended repository description:
+
+```text
+Practical AGENTS.md templates and operating rules for Codex coding agents.
+```
+
+Recommended topics:
+
+```text
+codex
+agents
+agents-md
+ai-coding
+coding-agent
+developer-tools
+workflow
+playbook
+nextjs
+saas
+evidence-gates
+worklogs
+```
 
 ## The Pitch
 
@@ -40,6 +65,18 @@ cp templates/nextjs-saas.md ../your-project/AGENTS.md
 ```
 
 Edit the copied file so it names your real commands, docs, and verification gates.
+
+For a Next.js SaaS app:
+
+```bash
+cp templates/nextjs-saas.md ../your-nextjs-app/AGENTS.md
+```
+
+For a long-running production project:
+
+```bash
+cp templates/production-ops.md ../your-production-repo/AGENTS.md
+```
 
 ## Why This Exists
 
@@ -92,6 +129,19 @@ The root `AGENTS.md` is intentionally copyable. The `templates/` directory exist
 6. Prevent large files from absorbing every new responsibility.
 7. Verify UI work in a real browser when possible.
 8. Record what changed, why it changed, and what remains.
+
+## Keywords
+
+This project is useful for:
+
+- Codex AGENTS.md templates
+- OpenAI Codex project instructions
+- AI coding agent workflow
+- coding agent playbook
+- evidence-based software agents
+- worklogs for AI development
+- Next.js SaaS agent rules
+- production operations for coding agents
 
 ## What Makes This Different
 
